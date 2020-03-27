@@ -1,0 +1,76 @@
+.form-container {
+
+    display: flex;
+}
+
+
+
+
+aside {
+
+    width : 250px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    height : 100vh;
+
+}
+
+aside p {
+
+    font-size: 30px;
+
+}
+
+.form {
+
+
+
+}
+
+.form-field {
+
+    border : none;
+    border-bottom: 3px solid black;
+    width : 350px;
+    height : 42px;
+    margin : 15px;
+    font-size: 23px;
+    box-sizing: border-box;
+    color : rgb(44, 44, 44);
+    outline : none;
+
+
+}
+
+.form-field:focus {
+    background-color: rgb(240, 240, 240);
+}
+
+.form-field:focus .form-field::before {
+    content : "<-"
+}
+
+.form-field::placeholder {
+    color : rgb(187, 187, 187);
+}
+
+.btn-submit {
+
+    color: white;
+    background-color: rgb(26, 26, 26);
+    border: none;
+    height : 35px;
+    width : 350px;
+    font-size: 26px;
+    margin : 15px;
+    outline: none;
+    transition: 0.5s;   
+
+}
+
+.btn-submit:hover {
+    color :rgb(26, 26, 26);
+    background-color: white;
+    border : 2px solid black
+}
